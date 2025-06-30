@@ -7,25 +7,29 @@ export const Homepage = () => {
   return (
     <div className="homepage">
       <Banner />
+      <section className="artist-section">
+        <div className="content-left">
+          <h2 className="section-heading">For Artistes</h2>
+          <p className="sub-heading">Connect. Collaborate. Create</p>
+          <p className="main-description">
+            Tarana empowers musicians at every level. Build your network and amplify your music with tools designed for creative professionals.
+          </p>
+          <ul className="feature-list">
+  <li><span className="bullet"></span><strong>Build Your Community:</strong> Follow and be followed by fellow artists, producers, and global fans who share your passion.</li>
+  <li><span className="bullet"></span><strong>Monetize Your Talent:</strong> Land paid gigs and freelance work through our marketplace. Offer lessons, session work, or merchandise.</li>
+  <li><span className="bullet"></span><strong>Create Your Band:</strong> Form your band, build a shared profile, manage projects, assign roles, and grow together—all within one powerful platform.</li>
+  <li><span className="bullet"></span><strong>Collaborate Effortlessly:</strong> Find bandmates, producers, or session players. Work together on projects in real time and turn ideas into songs.</li>
+  <li><span className="bullet"></span><strong>Showcase & Share:</strong> Upload your tracks and videos effortlessly. Build your professional music portfolio and share your work with the world.</li>
+</ul>
 
-      <div className="main-section">
-        <div className="content-section">
-          <h2>For Artistes</h2>
-          <p className="section-description">Connect. Collaborate. Create</p>
-          <ul className="features-list">
-            <li><strong>Build Your Community:</strong> Follow and be followed by fellow artists, producers, and labels.</li>
-            <li><strong>Monetize Your Talent:</strong> Land paid gigs and monetize work via our marketplace.</li>
-            <li><strong>Create Your Brand:</strong> Build an online profile, manage projects, gigs, and audience.</li>
-            <li><strong>Collaborate Effortlessly:</strong> Find beatmakers, producers, sound engineers, and songwriters.</li>
-            <li><strong>Showcase & Share:</strong> Upload tracks and media effortlessly.</li>
-          </ul>
           <button className="primary-btn">Join as an Artiste</button>
+          <p className="footer-note">Ready to rock your career?</p>
         </div>
 
-        <div className="image-section">
-          <img src={mobilelogo} alt="Mobile App" className="mobile-image" />
+        <div className="content-right">
+          <img src={mobilelogo} alt="Tarana Mobile App" className="mobile-image" />
         </div>
-      </div>
+      </section>
     </div>
   );
 };

@@ -1,87 +1,135 @@
+.homepage {
+  background-color: #1D1918;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
 
-
-
-
-.main-section {
+.artist-section {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 50px;
-  padding: 50px 100px;
   flex-wrap: wrap;
-  
+  justify-content: space-between;
+  padding: 80px 80px;
+  background-color: #1D1918;
+  gap: 40px;
 }
 
-.content-section {
+.content-left {
   flex: 1;
   min-width: 300px;
 }
 
-.image-section {
+.content-right {
   flex: 1;
   min-width: 300px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #E6543A 0%, #D389B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+
+.sub-heading {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+.main-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.feature-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 30px;
+  color: #eee;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.feature-list li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 12px;
+}
+
+.bullet {
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 12px;
+  height: 12px;
+  background-color: #FF5C5C; /* your Figma's orange-pink */
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+
+.primary-btn {
+  background-color: #FF5C5C;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.footer-note {
+  font-style: italic;
+  font-size: 13px;
+  color: #ccc;
+  margin-top: 5px;
 }
 
 .mobile-image {
-  width: 400px;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  /* max-width: 400px; */
   border-radius: 20px;
 }
 
-/* Tablet: 768px — 1023px */
+/* Tablet */
 @media (max-width: 1023px) {
-  .main-section {
+  .artist-section {
     flex-direction: column;
-    padding: 40px;
-    gap: 30px;
+    padding: 60px 40px;
   }
 
-  .content-section,
-  .image-section {
+  .content-left,
+  .content-right {
     width: 100%;
   }
 
   .mobile-image {
-    width: 350px;
+    width: 90%;
   }
 }
 
-/* Mobile Large: 425px — 767px */
-@media (max-width: 767px) {
-  .main-section {
-    padding: 30px 20px;
-    gap: 25px;
+/* Mobile */
+@media (max-width: 480px) {
+  .artist-section {
+    padding: 40px 20px;
+  }
+
+  .primary-btn {
+    width: 100%;
+    text-align: center;
   }
 
   .mobile-image {
-    width: 320px;
-  }
-}
-
-/* Mobile Medium: 375px — 424px */
-@media (max-width: 424px) {
-  .main-section {
-    padding: 20px 15px;
-    gap: 20px;
-  }
-
-  .mobile-image {
-    width: 280px;
-  }
-}
-
-/* Mobile Small: ≤ 374px */
-@media (max-width: 374px) {
-  .main-section {
-    padding: 20px 10px;
-    gap: 20px;
-  }
-
-  .mobile-image {
-    width: 250px;
+    max-width: 100%;
   }
 }
