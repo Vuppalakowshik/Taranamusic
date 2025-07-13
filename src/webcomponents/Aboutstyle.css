@@ -1,0 +1,63 @@
+.about-heading {
+  font-size: 36px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #E6543A 0%, #D389B8 50%, #2688C7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+
+.team-heading {
+  font-size: 32px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #E6543A 0%, #D389B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 40px 0 24px;
+}
+
+.team-card {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 12px;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+.badge-ceo {
+  background: #E6543A;
+}
+
+.badge-cmo {
+  background: #D389B8;
+}
+
+.badge-dev {
+  background: #2688C7;
+} 
+
+.aboutpara{
+    font-family: 'Clofie', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #E7E6E4;
+}

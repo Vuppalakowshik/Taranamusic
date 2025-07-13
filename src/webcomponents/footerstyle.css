@@ -1,0 +1,115 @@
+/* ===========================
+   FOOTER BASE STYLES 
+   =========================== */
+
+.footer-section {
+  background-color: #1D1918;
+  color: #fff;
+  padding: 50px 0;
+  font-family: 'Clofie', sans-serif;
+}
+
+.footer-section p,
+.footer-section li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Logo */
+.footer-logo {
+  width: 120px;
+  margin-bottom: 16px;
+}
+
+/* Tagline */
+.tagline {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+/* Social Icons */
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+/* App Download Buttons */
+.download-buttons img {
+  width: 120px;
+  height: auto;
+  cursor: pointer;
+}
+
+/* Footer Bottom Text */
+.footer-bottom {
+  font-size: 13px;
+  color: #ccc;
+  padding-top: 20px;
+  border-top: 1px solid #333;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* ===========================
+   RESPONSIVE OVERRIDES 
+   =========================== */
+
+/* Tablet (768px to 1023px) */
+@media (max-width: 1023px) {
+  .footer-section {
+    padding: 40px 0;
+  }
+
+  .download-buttons {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+/* Mobile (767px and below) */
+@media (max-width: 767px) {
+  .footer-section {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .footer-logo {
+    margin: 0 auto 16px;
+  }
+
+  .social-icons {
+    justify-content: center;
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+  }
+
+  .download-buttons {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .download-buttons img {
+    width: 140px;
+  }
+
+  .footer-bottom {
+    padding-top: 16px;
+    margin-top: 30px;
+  }
+}

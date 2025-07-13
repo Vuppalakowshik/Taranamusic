@@ -1,0 +1,22 @@
+.download-page {
+  background: #1D1918;
+}
+
+.Download-tarana {
+  font-family: 'Clofie';
+  font-weight: 700;
+  font-size: 36px;
+  background: linear-gradient(90deg, #E6543A 0%, #D389B8 50%, #2688C7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-links {
+  background-color:  #672D253D;
+  width: 253px;
+  height: 42px;
+  gap: 16px;
+  opacity: 1;
+  border-radius: 8px;
+  padding: 8px;
+
+}
