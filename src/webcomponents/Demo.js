@@ -18,10 +18,10 @@ export const Demo = () => {
   return (
      <div>
             <Navbar/>
-       
-    <div style={{ background: '#1D1918', padding: '60px 0' }}>
-       
-        <Container>
+
+    <div style={{ background: 'rgb(29, 25, 24)', padding: '60px 0' }}>
+
+        <Container style={{ background: 'rgb(29, 25, 24)', padding: '60px 0' }}>
           <h2 className="text-center mb-4" style={{ fontSize: '36px', fontWeight: '700', background: 'linear-gradient(90deg, #E6543A 0%, #D389B8 50%, #2688C7 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
             Dive into the Tarana Experience
           </h2>

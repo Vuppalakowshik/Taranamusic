@@ -8,7 +8,7 @@ import { DownloadRedirect } from './webcomponents/DownloadRedirect';
 import {Navbar} from './webcomponents/Navbar';
 import { Demo } from './webcomponents/Demo';
 import {Aboutus} from './webcomponents/About';
-
+import { Faqs } from './webcomponents/Faqs';
 
 import logo from './logo.svg';
 import './App.css';
@@ -25,6 +25,7 @@ function App() {
           <Route path="/navbar" element={<Navbar />} />
         <Route path="/about" element={<Aboutus />} />
         <Route path="/demo" element={<Demo />} />
+        <Route path="/faqs" element={<Faqs />} />
       </Routes>
     </Router>
   );

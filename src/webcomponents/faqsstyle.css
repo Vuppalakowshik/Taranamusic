@@ -1,0 +1,10 @@
+.Faqsheading{
+    font-size: 36px;
+    font-weight: 700;
+  background: linear-gradient(90deg, #E6543A 0%, #D389B8 50%, #2688C7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 20px;
+}
